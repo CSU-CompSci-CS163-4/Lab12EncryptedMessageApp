@@ -48,6 +48,44 @@ Would you like to save your messages from this session? (y/n) y
 Process finished with exit code 0
 ```
 
+After running, `input.txt` looks like:
+```text
+TO: Alice
+FROM: Hatter
+SUBJECT: Red Queen
+BODY: To keep ahead, run from the red queen.
+TO: Hatter
+FROM: Red
+SUBJECT: New Hat
+BODY: Hatter, I need a new hat, and if I don't get it, you won't need one.
+TO: Cheshire Cat
+FROM: Quick Rabbit
+SUBJECT: Important Meeting
+BODY: Don't be late for our very important date!
+TO: Quick Rabbit
+FROM: Cheshire Cat
+SUBJECT: Directions
+BODY: Am I going this way or that to meet you?
+TO: Cheshire Cat
+FROM: Red
+SUBJECT: Grumpy Cat
+BODY: What are you smiling at?
+```
+
+And `output.txt` looks like: 
+
+``` text
+WR=#Fkhvkluh#Fdw
+IURP=#Uhg
+VXEMHFW=#Juxps|#Fdw
+ERG\=#Zkdw#duh#|rx#vplolqj#dwB
+
+TO: Cheshire Cat
+FROM: Red
+SUBJECT: Grumpy Cat
+BODY: What are you smiling at?
+```
+
 ## Step 1: Getting Started
 Take a look at the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and take note of what methods you need to create from scratch, which ones you need to modify from Lab 10, and which ones you already did and don't need to change. `NOTE:` The ArrayList in `MessageApp` needs to be changed from private to public for testing purposes. Make sure you update that in your code. Also, we have provided a new `MessageMain` .java file above for you. It contains added functionality. Take a look at what it does and update your code. Also notice that there is no src folder this time. This is on purpose, as you will be working in the project that you created for Lab 10. (Feel free to make a duplicate project and call it Lab 12, but keep working with the code you already wrote.) The only file you need to modify that's not in the javadoc is MessageMain.
 
