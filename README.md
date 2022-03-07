@@ -1,39 +1,58 @@
 ## Lab 10 - EncryptedMessageApp
  
 ## Scenario 
-You have been hired to build a simple console/terminal based program and will continue to expand on and add to your code over the next three weeks. For the first week you will read in messages from a file and search through an ArrayList storing those messages by subject, "to" line, and "from" line. Instructions can be found in the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html).
+Your boss was impressed with your work last week. This week you will add methods to encrypt and decrypt messages, as well as compose messages. Instructions can be found in the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html).
 
-Here is an examples of the program running:
+Here is an example of the program running:
 
 ```text
 Welcome to Wonderland Messenger.
+[C]: compose new message
+[S]: search for a message
+[X]: exit
+What would you like to do? c
+TO:  Cheshire Cat
+FROM:  Red
+SUBJECT:  Grumpy Cat
+BODY:  What are you smiling at?
+What file would you like to write your message to?  output.txt
+Message composed.
+Welcome to Wonderland Messenger.
+[C]: compose new message
 [S]: search for a message
 [X]: exit
 What would you like to do? s
 What type of search would you like to do?
-Options are: subject, to, from subject
-Enter your search phrase:  meeting
+Options are: subject, to, from to
+Enter your search phrase:  cat
 Found message!
 TO: Cheshire Cat
 FROM: Quick Rabbit
 SUBJECT: Important Meeting
 BODY: Don't be late for our very important date!
 
+Found message!
+TO: Cheshire Cat
+FROM: Red
+SUBJECT: Grumpy Cat
+BODY: What are you smiling at?
+
+
 Welcome to Wonderland Messenger.
+[C]: compose new message
 [S]: search for a message
 [X]: exit
 What would you like to do? x
+Would you like to save your messages from this session? (y/n) y
 
 Process finished with exit code 0
 ```
 
-## Step 1: Self-Explanation
-Take a look at the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and take note of the methods you need to create/implement. See what code has been provided and what still needs to be done. Brainstorm some ideas on how to implement these methods, and write your thoughts down.
+## Step 1: Getting Started
+Take a look at the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and take note of what methods you need to create from scratch, which ones you need to modify from Lab 10, and which ones you already did and don't need to change. `NOTE:` The ArrayList in `MessageApp` needs to be changed from private to public for testing purposes. Make sure you update that in your code. Also, we have provided a new `MessageMain` .java file above for you. It contains added functionality. Take a look at what it does and update your code. Also notice that there is no src folder this time. This is on purpose, as you will be working in the project that you created for Lab 10. (Feel free to make a duplicate project and call it Lab 12, but keep working with the code you already wrote.) The only file you need to modify that's not in the javadoc is MessageMain.
 
 ## Step 2: Implementation
 Follow the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and write some code. Make sure to write tests for your code as you work on each method.
 
 ## Step 3: Finishing up
-To turn in your assignment, click through the link on
-Canvas, upload your files to Zybooks and click submit for grading. Note you can do 
-this more than once.
+To turn in your assignment, click through the link on Canvas, upload your files to Zybooks and click submit for grading. Note you can do this more than once.
