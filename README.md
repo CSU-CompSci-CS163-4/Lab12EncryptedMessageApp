@@ -1,4 +1,4 @@
-## Lab 10 - EncryptedMessageApp
+## Lab 12 - EncryptedMessageApp
  
 ## Scenario 
 Your boss was impressed with your work last week. This week you will add methods to encrypt and decrypt messages, as well as compose messages. Instructions can be found in the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html).
