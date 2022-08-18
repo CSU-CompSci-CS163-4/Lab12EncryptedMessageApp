@@ -1,7 +1,7 @@
 ## Lab 12 - EncryptedMessageApp
  
 ## Scenario 
-Your boss was impressed with your work last week. This week you will add methods to encrypt and decrypt messages, as well as compose messages. Instructions can be found in the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html).
+Your boss was impressed with your work last week. This week you will add methods to encrypt and decrypt messages, as well as compose messages. Instructions can be found in the [javadoc](https://csu-compsci-cs163-4.github.io/Lab12EncryptedMessageApp/package-summary.html).
 
 Here is an example of the program running:
 
@@ -87,10 +87,10 @@ BODY: What are you smiling at?
 ```
 
 ## Step 1: Getting Started
-Take a look at the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and take note of what methods you need to create from scratch, which ones you need to modify from Lab 10, and which ones you already did and don't need to change. `NOTE:` The ArrayList in `MessageApp` needs to be changed from private to public for testing purposes. Make sure you update that in your code. Also, we have provided a new `MessageMain` .java file above for you. It contains added functionality. Take a look at what it does and update your code. Also notice that there is no src folder this time. This is on purpose, as you will be working in the project that you created for Lab 10. (Feel free to make a duplicate project and call it Lab 12, but keep working with the code you already wrote.) You may also need to look at your `searchHelper()` method in `MessageApp` and make sure that when you change the `messageToString()` method in `MessageView` to `toString()` in `OpenMessage` that you replace the old call to `messageToString()` to the new `toString()`.
+Take a look at the [javadoc](https://csu-compsci-cs163-4.github.io/Lab12EncryptedMessageApp/package-summary.html) and take note of what methods you need to create from scratch, which ones you need to modify from Lab 10, and which ones you already did and don't need to change. `NOTE:` The ArrayList in `MessageApp` needs to be changed from private to public for testing purposes. Make sure you update that in your code. Also, we have provided a new `MessageMain` .java file above for you. It contains added functionality. Take a look at what it does and update your code. Also notice that there is no src folder this time. This is on purpose, as you will be working in the project that you created for Lab 10. (Feel free to make a duplicate project and call it Lab 12, but keep working with the code you already wrote.) You may also need to look at your `searchHelper()` method in `MessageApp` and make sure that when you change the `messageToString()` method in `MessageView` to `toString()` in `OpenMessage` that you replace the old call to `messageToString()` to the new `toString()`.
 
 ## Step 2: Implementation
-Follow the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab12/package-summary.html) and write some code. Make sure to write tests for your code as you work on each method.
+Follow the [javadoc](https://csu-compsci-cs163-4.github.io/Lab12EncryptedMessageApp/package-summary.html) and write some code. Make sure to write tests for your code as you work on each method.
 
 ## Step 3: Finishing up
 To turn in your assignment, click through the link on Canvas, upload your files to Zybooks and click submit for grading. Note you can do this more than once.
